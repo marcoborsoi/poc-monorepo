@@ -1,0 +1,33 @@
+{
+  "name": "@marcoborsoi/nuxt-valtech-ui",
+  "version": "0.0.2",
+  "license": "ISC",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.cjs"
+    }
+  },
+  "main": "./dist/module.cjs",
+  "types": "./dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepack": "nuxt-module-build",
+    "dev": "nuxi dev playground",
+    "dev:build": "nuxi build playground",
+    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground"
+  },
+  "dependencies": {
+    "@marcoborsoi/vue-valtech-ui": "^0.0.2",
+    "@nuxt/kit": "^3.0.0-rc.4"
+  },
+  "devDependencies": {
+    "@nuxt/module-builder": "latest",
+    "@nuxtjs/eslint-config-typescript": "latest",
+    "eslint": "latest",
+    "nuxt": "^3.0.0-rc.4"
+  }
+}

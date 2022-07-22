@@ -1,0 +1,11 @@
+.DS_Store
+
+node_modules
+
+dist
+dist-ssr
+
+*.local
+types
+
+storybook-static

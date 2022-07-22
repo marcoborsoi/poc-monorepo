@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valtech Web Components Playground</title>
+  <link rel="stylesheet" href="./dist/wc-valtech-ui.css" />
+  <style>
+    .c-card__list {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      margin: 0;
+      max-width: 100vw;
+      overflow: auto;
+      padding: 0;
+    }
+
+    .c-card__list-item {
+      flex: 1 0 auto;
+      padding: 10px;
+      width: 20vw;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Valtech Web Components Playground</h1>
+    <ul class="c-card__list">
+      <li class="c-card__list-item">
+        <valtech-card>
+          <p>Lorem Ipsum dolor site amet</p>
+          <valtech-button primary="true">Lorem Ipsum</valtech-button>
+        </valtech-card>
+      </li>
+      <li class="c-card__list-item">
+        <valtech-card>
+          <p>Lorem Ipsum dolor site amet</p>
+          <valtech-button primary="true">Lorem Ipsum</valtech-button>
+        </valtech-card>
+      </li>
+      <li class="c-card__list-item">
+        <valtech-card>
+          <p>Lorem Ipsum dolor site amet</p>
+          <valtech-button primary="true">Lorem Ipsum</valtech-button>
+        </valtech-card>
+      </li>
+      <li class="c-card__list-item">
+        <valtech-card>
+          <p>Lorem Ipsum dolor site amet</p>
+          <valtech-button primary="true">Lorem Ipsum</valtech-button>
+        </valtech-card>
+      </li>
+      <li class="c-card__list-item">
+        <valtech-card>
+          <p>Lorem Ipsum dolor site amet</p>
+          <valtech-button primary="true">Lorem Ipsum</valtech-button>
+        </valtech-card>
+      </li>
+      <li class="c-card__list-item">
+        <valtech-card>
+          <p>Lorem Ipsum dolor site amet</p>
+          <valtech-button primary="true">Lorem Ipsum</valtech-button>
+        </valtech-card>
+      </li>
+      <li class="c-card__list-item">
+        <valtech-card>
+          <p>Lorem Ipsum dolor site amet</p>
+          <valtech-button primary="true">Lorem Ipsum</valtech-button>
+        </valtech-card>
+      </li>
+    </ul>
+  </main>
+  <script type="module">
+    import { register } from './dist/wc-valtech-ui.es.js';
+    register();
+  </script>
+</body>
+</html>
